@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "Maragsa";
-        font-weight: normal;
-        src: url("/fonts/Maragsa-Display.woff") format(woff),
-             url("/fonts/Maragsa-Display.woff2") format(woff2),
-             url("/fonts/Maragsa-Display.otf") format(opentype);
-    }
+	@font-face {
+		font-family: 'Maragsa';
+		font-weight: normal;
+		src: url('/fonts/Maragsa-Display.woff') format(woff),
+			url('/fonts/Maragsa-Display.woff2') format(woff2),
+			url('/fonts/Maragsa-Display.otf') format(opentype);
+	}
 }
